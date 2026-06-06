@@ -1,3 +1,25 @@
+:root {
+  --black: rgba(0, 0, 0, 1);
+  --white: rgba(255, 255, 255, 1);
+  --dark-purple: rgb(45, 0, 45);
+  --dark-blue: rgba(33, 26, 144, 1);
+  --blue: rgba(44, 21, 208, 1);
+  --purple: rgba(124, 51, 185, 1);
+  --dark-gray: rgb(42, 42, 42);
+}
+
 .primary-background {
   color: rgb(109, 4, 109) !important;
+}
+
+.content-container {
+  padding: 20px;
+  max-width: 1024px;
+  margin: auto;
+}
+
+.dark-background-container {
+  background: var(--dark-black);
+  background: linear-gradient(0deg, var(--dark-purple), var(--black));
+  color: var(--white);
 }
