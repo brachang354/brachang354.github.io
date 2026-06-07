@@ -8,8 +8,8 @@
   --dark-gray: rgb(42, 42, 42);
 }
 
-.primary-background {
-  color: rgb(109, 4, 109) !important;
+.light-text {
+  color: var(--white) !important;
 }
 
 .content-container {
