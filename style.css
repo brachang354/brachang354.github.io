@@ -12,6 +12,10 @@
   color: var(--white) !important;
 }
 
+.purple-bg {
+  background-color: var(--purple) !important;
+}
+
 .content-container {
   padding: 20px;
   max-width: 1024px;
@@ -22,4 +26,18 @@
   background: var(--dark-black);
   background: linear-gradient(0deg, var(--dark-purple), var(--black));
   color: var(--white);
+}
+
+.image-container {
+  text-align: center;
+}
+
+.image-properties {
+  width: 30rem;
+  height: 20rem;
+  align-self: center;
+}
+
+.image-caption {
+  padding-top: 1rem;
 }
