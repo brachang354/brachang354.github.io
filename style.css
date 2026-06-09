@@ -16,6 +16,10 @@
   background-color: var(--purple) !important;
 }
 
+.dark-purple-bg {
+  background-color: var(--dark-purple) !important;
+}
+
 .content-container {
   padding: 20px;
   max-width: 1024px;
