@@ -5,7 +5,8 @@
   --dark-blue: rgba(33, 26, 144, 1);
   --blue: rgba(44, 21, 208, 1);
   --purple: rgba(124, 51, 185, 1);
-  --dark-gray: rgb(42, 42, 42);
+  --dark-gray: rgba(42, 42, 42, 1);
+  --mid-purple: rgba(63, 5, 68, 1);
 }
 
 .light-text {
@@ -18,6 +19,10 @@
 
 .dark-purple-bg {
   background-color: var(--dark-purple) !important;
+}
+
+.mid-purple-bg {
+  background-color: var(--mid-purple) !important;
 }
 
 .content-container {
